@@ -116,7 +116,7 @@ class ObjectDetector(object):
             instance_masks=output_dict.get('detection_masks'),
             use_normalized_coordinates=True,
             line_thickness=4,
-            min_score_thresh=.1)
+            min_score_thresh=.3)
 
         return image
 
